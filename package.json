@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*", "projects/*", "setup/*"]
+  },
+  "scripts": {
+    "dev:web-public": "yarn workspace @alura/web-public dev"
+  }
+}
